@@ -12,7 +12,7 @@ driver = webdriver.Chrome(
     executable_path="C:\\Users\\Nick\\Desktop\\chromedriver_win32\chromedriver.exe", chrome_options=chrome_options)
 
 # Open the web page
-driver.get('https://www.surveymonkey.com/r/SB_People')
+driver.get('<YourWebPageHere>')
 time.sleep(2)
 
 # Find the okay button and click it
